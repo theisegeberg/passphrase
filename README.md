@@ -4,6 +4,11 @@ TFH Passphrase is a small iOS app for generating and ranking human-friendly pass
 
 You can build it yourself or download it from the app store.
 
+Why did I build this? Because I couldn't find a good open source passphrase generator.
+
+## Check for yourself
+Included is a `audit.sh` script you can run to see for yourself.
+
 ## Features
 - Generate candidate passphrases from a word list
 - Built-in heuristics ("scorers") for typing ergonomics and character similarity

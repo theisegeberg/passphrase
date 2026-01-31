@@ -6,7 +6,6 @@ let wordlist = """
     city
     cork
     corn
-    curl
     dish
     dock
     down

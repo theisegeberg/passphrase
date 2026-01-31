@@ -93,7 +93,6 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Passphrase")
-            .preferredColorScheme(.dark)
         }
     }
 

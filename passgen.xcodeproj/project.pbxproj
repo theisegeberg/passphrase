@@ -35,6 +35,8 @@
 		C6E3819B2F2DE16800680BF7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		C6E3819C2F2DE16800680BF7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6E3819D2F2DE39E00680BF7 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		C6E3819F2F2DF23B00680BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6E381A02F2E41DE00680BF7 /* audit.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = audit.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C68ABCDB2B56542D002AE876 = {
 			isa = PBXGroup;
 			children = (
+				C6E381A02F2E41DE00680BF7 /* audit.sh */,
 				C6E3819C2F2DE16800680BF7 /* README.md */,
 				C6E3819B2F2DE16800680BF7 /* LICENSE.md */,
 				C68ABCE62B56542D002AE876 /* passgen */,
@@ -70,6 +73,7 @@
 		C68ABCE62B56542D002AE876 /* passgen */ = {
 			isa = PBXGroup;
 			children = (
+				C6E3819F2F2DF23B00680BF7 /* Info.plist */,
 				C6E381982F2DD1A800680BF7 /* UI */,
 				C6E381972F2DD19F00680BF7 /* Data */,
 				C6E381962F2DD19500680BF7 /* Utils */,
@@ -355,7 +359,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"passgen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = passgen/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Passphrase;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -386,7 +392,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"passgen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = passgen/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Passphrase;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
