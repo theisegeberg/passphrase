@@ -37,7 +37,6 @@
 		C6E3819D2F2DE39E00680BF7 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		C6E3819F2F2DF23B00680BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C6E381A02F2E41DE00680BF7 /* audit.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = audit.sh; sourceTree = "<group>"; };
-		C6E381C22F2E5D1600680BF7 /* SUPPORT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SUPPORT.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +53,6 @@
 		C68ABCDB2B56542D002AE876 = {
 			isa = PBXGroup;
 			children = (
-				C6E381C22F2E5D1600680BF7 /* SUPPORT.md */,
 				C6E381A02F2E41DE00680BF7 /* audit.sh */,
 				C6E3819C2F2DE16800680BF7 /* README.md */,
 				C6E3819B2F2DE16800680BF7 /* LICENSE.md */,
